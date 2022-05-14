@@ -7,7 +7,7 @@ int table[256];
 void initialize(){
     table[0] = 0;
     for (int i = 1; i<256; i++)
-        table[i] = (i&1) + table[i/2];
+        table[i] = (i&1) + table[i/2]; // right shift recursively
 }
 
 int countBits(int n){
