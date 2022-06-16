@@ -1,4 +1,4 @@
-// maximum consecutive 1's in binary representation
+// maximum consecutive 1's in binary array
 #include<iostream>
 #include<cmath>
 using namespace std;
