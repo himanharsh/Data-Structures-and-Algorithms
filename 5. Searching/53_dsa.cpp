@@ -17,6 +17,7 @@ int firstOcc(int *arr, int n, int x){
                 high = mid-1; // going to left half
         }
     }
+    return -1;
 }
 
 int main()
