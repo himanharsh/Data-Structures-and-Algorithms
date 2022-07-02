@@ -1,4 +1,4 @@
-// quick sort using lomuto's partition
+// quick sort using Lomuto's partition
 #include<iostream>
 #include<algorithm>
 using namespace std;
