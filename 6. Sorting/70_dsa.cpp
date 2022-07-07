@@ -12,10 +12,16 @@ void Union(int *a, int *b, int m, int n){
          else if (a[i] > b[j]){cout<<b[j]<<" "; j++;}
          else {cout<<a[i]<<" ";i++;j++;}
     }
-    while(i<m)
-        if (i>0 && a[i] != a[i-1]){cout<<a[i]<<" ";i++;}
-    while(i<m)
-        if (i>0 && a[i] != a[i-1]){cout<<a[i]<<" ";i++;}
+    while(i<m){
+        if (i>0 && a[i] != a[i-1])
+            cout<<a[i]<<" ";
+        i++;
+    }
+    while(i<m){
+        if (i>0 && a[i] != a[i-1])
+            cout<<a[i]<<" ";
+        i++;
+    }
 }
 
 int main()
