@@ -13,14 +13,14 @@ void Union(int *a, int *b, int m, int n){
          else {cout<<a[i]<<" ";i++;j++;}
     }
     while(i<m){
-        if (i>0 && a[i] != a[i-1])
+        if (i==0 || (i>0 && a[i] != a[i-1]))
             cout<<a[i]<<" ";
         i++;
     }
-    while(i<m){
-        if (i>0 && a[i] != a[i-1])
-            cout<<a[i]<<" ";
-        i++;
+    while(j<n){
+        if (j==0 || (j>0 && a[j] != a[j-1]))
+            cout<<b[j]<<" ";
+        j++;
     }
 }
 
